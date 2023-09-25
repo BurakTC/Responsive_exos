@@ -1,0 +1,46 @@
+@media only screen and (max-width: 300px){
+    body {
+      background-color: red;
+    }
+    #small{
+        visibility: visible;
+    }
+    #large{
+        visibility: hidden;
+    }
+    #medium{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 300px)and (max-width : 768px){
+    body {
+      background-color: green;
+    }
+    #small{
+        visibility: hidden;
+    }
+    #large{
+        visibility: hidden;
+    }
+    #medium{
+        visibility: visible;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    body {
+      background-color: blue;
+    }
+    #small{
+        visibility: hidden;
+    }
+    #large{
+        visibility: visible;
+    }
+    #medium{
+        visibility: hidden;
+    }
+}
+
